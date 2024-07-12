@@ -11,4 +11,12 @@ const urlParams = {
   type: "json",
 };
 
-export default urlParams;
+const url = `https://evds2.tcmb.gov.tr/service/evds/\
+series=${urlParams.series.usd}&\
+startDate=${urlParams.startDate}&\
+endDate=${urlParams.endDate}&\
+type=${urlParams.type}`;
+
+// ${urlParams.additionalFunctions}
+
+export { url, urlParams };

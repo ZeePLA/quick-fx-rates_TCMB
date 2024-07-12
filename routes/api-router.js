@@ -13,4 +13,9 @@ router.get("/query", async (req, res) => {
   res.json(fetchedData);
 });
 
+// Endpoint-NotFound
+router.get("/*", (req, res) => {
+  res.sendStatus(404);
+});
+
 export default router;

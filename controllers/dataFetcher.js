@@ -1,10 +1,9 @@
 import { config } from "dotenv";
 config({ path: `${process.cwd()}/live.env` });
 import axios from "axios";
-import urlParams from "./urlController.js";
+import { url } from "./urlController.js";
 
 // Request-Parameters
-const url = `https://evds2.tcmb.gov.tr/service/evds/series=${urlParams.series.all}&startDate=${urlParams.startDate}&endDate=${urlParams.endDate}&type=${urlParams.type}`;
 const headers = { key: process.env.EVDS_API_KEY };
 
 // In-memory data storage
