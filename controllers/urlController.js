@@ -17,6 +17,4 @@ startDate=${urlParams.startDate}&\
 endDate=${urlParams.endDate}&\
 type=${urlParams.type}`;
 
-// ${urlParams.additionalFunctions}
-
 export { url, urlParams };
