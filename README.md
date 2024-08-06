@@ -1,22 +1,18 @@
-# Fetching fx rates from EVDS
+# FX-RATES
 
-## Time-Sheet
+This service is using API of EVDS(Electronic Data Delivery System) to fetch fx-rates from TCMB(Central Bank of the Republic of Türkiye).
 
-1- This project is using EVDS API to query fx rates from TCMB(Turkish Central Bank).
+## Future of the project
 
-2- I also added a twitter feature so I can tweet by calling an endpoint on the backend. Used twitter-api-v2 on this. For now it is static and tweets a string.
+- This will be an SPA.
+- You will be able to use calender to pick date.
+- You will pick a currency with a drop-down menu.
+- There will be panel to compare the current rate and a year before.
 
-3- Planning on merging these two features so that I could timely tweet about currencies and stuff.
+### Data Group | FX Rates:
 
-### Data Group: FX Rates:
-
-- Seri: (USD) ABD Doları (Döviz Alış)- TP.DK.USD.A,
-- Seri: (EUR) Euro (Döviz Alış)- TP.DK.EUR.A,
-- Seri: (CHF) İsviçre Frangı (Döviz Alış)- TP.DK.CHF.A,
-- Seri: (GBP) İngiliz Sterlini (Döviz Alış)- TP.DK.GBP.A,
-- Seri: (JPY) Japon Yeni (Döviz Alış)- TP.DK.JPY.A
-
-###
-
-choco-bot
-@gokhan126154728
+- USD - ABD Doları (Döviz Alış)- TP.DK.USD.A
+- EUR - Euro (Döviz Alış)- TP.DK.EUR.A
+- CHF - İsviçre Frangı (Döviz Alış)- TP.DK.CHF.A
+- GBP - İngiliz Sterlini (Döviz Alış)- TP.DK.GBP.A
+- JPY - Japon Yeni (Döviz Alış)- TP.DK.JPY.A
